@@ -111,7 +111,7 @@
           {
             "name": "addReply",
             "parameters": {
-              "comment": "Thank you for your pull request, ${issueAuthor}. It will be reviewed by the Azure Sphere team. \n\nBeyond the pull request reviewers approval, there will be additional pipeline checks required before changes can be merged into this repository branch."
+              "comment": "Thank you for your pull request, ${issueAuthor}! As part of the PR process for this repository we require a passing run of our on-device tests. Before we can run these tests however, a member of the Azure Sphere team will need to perform an initial review of your changes (as indicated by the ‘Check Required’ label). Once they have taken a look at your proposed changes, the Azure Sphere Team member will reply to this PR with a comment of `/azp run` which will trigger the required test pipelines."
             }
           },
           {
