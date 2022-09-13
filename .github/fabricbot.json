@@ -45,50 +45,6 @@
                   "operator": "not",
                   "operands": [
                     {
-                      "name": "activitySenderHasPermissions",
-                      "parameters": {
-                        "permissions": "admin"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "operator": "not",
-                  "operands": [
-                    {
-                      "name": "activitySenderHasPermissions",
-                      "parameters": {
-                        "permissions": "write"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "operator": "not",
-                  "operands": [
-                    {
-                      "name": "activitySenderHasPermissions",
-                      "parameters": {
-                        "permissions": "none"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "operator": "not",
-                  "operands": [
-                    {
-                      "name": "activitySenderHasAssociation",
-                      "parameters": {
-                        "association": "OWNER"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "operator": "not",
-                  "operands": [
-                    {
                       "name": "activitySenderHasAssociation",
                       "parameters": {
                         "association": "MEMBER"
