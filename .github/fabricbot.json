@@ -51,6 +51,18 @@
                       }
                     }
                   ]
+                },
+                {
+                  "operator": "not",
+                  "operands": [
+                    {
+                      "name": "activitySenderHasAssociation",
+                      "parameters": {
+                        "permissions": "write",
+                        "association": "COLLABORATOR"
+                      }
+                    }
+                  ]
                 }
               ]
             }
