@@ -58,7 +58,6 @@
                     {
                       "name": "activitySenderHasAssociation",
                       "parameters": {
-                        "permissions": "write",
                         "association": "COLLABORATOR"
                       }
                     }
